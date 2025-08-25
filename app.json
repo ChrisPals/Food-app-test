@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "ensure the bins on search screen is always the same height they change height when I click them. \n      \n🏗️ PROFESSIONAL DESIGN SYSTEM WITH NATIVEWIND:\n\n🌃 SOPHISTICATED DARK THEME DESIGN SYSTEM:\n        - Background: Dark gradients like ['#1a1a2e', '#16213e'] or ['#0f0f23', '#1a1a2e']\n        - Glass cards: backgroundColor: 'rgba(255,255,255,0.1)', backdropFilter: 'blur(20px)', borderRadius: 20\n        - Subtle borders: borderWidth: 1, borderColor: 'rgba(255,255,255,0.2)'\n        - Text colors: White (#ffffff) for titles, rgba(255,255,255,0.8) for descriptions\n        - Modern shadows: shadowColor: 'rgba(0,0,0,0.5)', shadowOffset: {width: 0, height: 8}, shadowOpacity: 0.3, shadowRadius: 16\n        - Tab bar: backgroundColor: 'rgba(0,0,0,0.3)', backdropFilter: 'blur(20px)'\n        - Accent colors: '#9333ea' (purple), '#06b6d4' (cyan), '#f59e0b' (amber)\n\n💨 MANDATORY: USE NATIVEWIND (TAILWIND FOR REACT NATIVE):\n- ALWAYS use NativeWind className instead of StyleSheet.create\n- Use Tailwind utility classes for all styling\n- Example: className=\"bg-gradient-to-br from-slate-900 to-slate-800 flex-1 p-6\"\n- Glass morphism: className=\"bg-white/10 backdrop-blur-xl rounded-3xl border border-white/20\"\n- Cards: className=\"bg-white/5 backdrop-blur-2xl rounded-2xl p-6 border border-white/10 shadow-2xl\"\n- Typography: className=\"text-white text-2xl font-bold\" or className=\"text-white/80 text-base\"\n- Layout: className=\"flex-1 px-4 py-6\" instead of flex: 1, padding\n\n🎯 MANDATORY DESIGN STANDARDS (ALWAYS REQUIRED):\n\n1. 📐 NATIVEWIND COMPONENT STANDARDS:\n   - Use Tailwind spacing: p-2, p-4, p-6, m-2, m-4, m-6 (8px grid)\n   - Typography: text-2xl font-bold, text-lg font-semibold, text-base, text-sm\n   - Rounded corners: rounded-3xl (cards), rounded-xl (buttons), rounded-lg (small)\n   - Touch targets: h-11 min-h-[44px] for accessibility\n   - Flexbox: flex-1, flex-row, justify-center, items-center\n\n2. 🧭 RESPONSIVE NAVIGATION SYSTEM (CRITICAL):\n   - ALWAYS render visible tab navigation at bottom\n   - Glass morphism tab bar with backdrop blur\n   - Active state indicators with smooth transitions\n   - State management with useState for tab switching\n   - 4-5 main tabs with icons and labels\n   - Hamburger menu for additional options\n\n3. 🖼️ PROFESSIONAL ASSET LIBRARY:\n   - High-quality Picsum images (more reliable than Unsplash)\n   - Events: 'https://picsum.photos/800/600?random=1'\n   - Conference: 'https://picsum.photos/800/600?random=2'\n   - Music: 'https://picsum.photos/800/600?random=3'\n   - Food: 'https://picsum.photos/800/600?random=4'\n   - Business: 'https://picsum.photos/800/600?random=5'\n   - Technology: 'https://picsum.photos/800/600?random=6'\n   - Consistent aspect ratios and quality\n\n4. 🎨 MODERN UI PATTERNS:\n   - Glass morphism cards with backdrop filters\n   - Floating action buttons with elevation\n   - Search bars with subtle backgrounds\n   - Loading states with skeleton screens\n   - Empty states with helpful messaging\n   - Smooth micro-interactions\n\n5. 📱 LAYOUT ARCHITECTURE:\n   - SafeAreaView container\n   - Header with glass morphism and search\n   - ScrollView/FlatList for main content\n   - Card-based information architecture\n   - Bottom tab navigation (always visible)\n   - Proper content hierarchy\n\n6. ♿ ACCESSIBILITY & USABILITY:\n   - Sufficient color contrast ratios\n   - Readable font sizes and weights\n   - Clear visual hierarchy\n   - Meaningful button labels\n   - Proper touch target sizes\n   - Screen reader friendly structure\n\n7. 🎭 ANIMATION & TRANSITIONS WITH NATIVEWIND:\n   - Tab transitions: className=\"transition-all duration-300 ease-in-out\"\n   - Card states: className=\"transform hover:scale-105 active:scale-95 transition-transform duration-150\"\n   - Loading states: className=\"animate-pulse\" or className=\"animate-spin\"\n   - Smooth animations: className=\"transition-opacity duration-500 ease-out\"\n   - Fade effects: className=\"opacity-0 animate-fade-in\"\n\n8. 📐 NATIVEWIND LAYOUT SYSTEM:\n   - Container: className=\"flex-1 bg-gradient-to-br from-slate-900 to-slate-800\"\n   - SafeArea: className=\"flex-1 pt-safe-top pb-safe-bottom\"\n   - Cards: className=\"m-4 p-6 bg-white/10 backdrop-blur-xl rounded-3xl border border-white/20\"\n   - Grid layouts: className=\"grid grid-cols-2 gap-4\" for 2-column, className=\"grid grid-cols-3 gap-3\" for 3-column\n   - Card grids: className=\"grid grid-cols-1 md:grid-cols-2 gap-6 px-4\"\n   - Lists: className=\"px-4 py-2\" for FlatList contentContainerStyle\n   - Spacing: className=\"space-y-4\" for vertical, className=\"space-x-3\" for horizontal\n\n9. 🎨 NATIVEWIND COLOR PALETTE:\n   - Dark theme: from-slate-900, to-slate-800, bg-gray-900/50\n   - Light theme: from-gray-50, to-white, bg-white/80\n   - Glass effects: bg-white/10, bg-black/20, backdrop-blur-xl\n   - Accents: text-blue-400, text-purple-400, text-emerald-400\n   - Borders: border-white/20, border-gray-200/30\n\n10. 📱 NATIVEWIND RESPONSIVE PATTERNS:\n   - Touch targets: className=\"h-12 px-4 rounded-xl\" (minimum 44px height)\n   - Typography scale: text-3xl font-bold, text-lg font-semibold, text-base\n   - Icon containers: className=\"w-10 h-10 rounded-full bg-white/20 items-center justify-center\"\n   - Button styles: className=\"px-6 py-3 bg-blue-500 rounded-2xl shadow-lg active:scale-95\"\n\nCREATE A POLISHED, PROFESSIONAL APP USING NATIVEWIND TAILWIND CLASSES FOLLOWING MODERN DESIGN SYSTEMS!",
+    "slug": "ensure-the-bins-on-search-scre",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lemonup.user.ensurethebinsonsearchscre",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.lemonup.user.ensurethebinsonsearchscre",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
